@@ -11,6 +11,7 @@ function HeadlingListProducts({data}) {
         <MainLayout>
             <div className={container}>
                 <CountdownBanner />
+                
                 <div className={containerItem}>
                     {data.map((item) => (
                         <ProductItem
